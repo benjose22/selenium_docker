@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a703d04-2ab8-4196-952f-06fe67e1a633" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.46043614">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/libraries/library_add_remove_elements.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/libraries/library_dynamic_controls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-210">
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/libraries/locators.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                  <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tests/test_drag_and_drop.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+                  <folding>
+                    <element signature="e#0#52#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/conftest.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="35" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tests/test_add_remove_elements.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="453">
+                  <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tests/test_dynamic_controls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="725">
+                  <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pytest.ini">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tests/test_purchase_tickets.py" />
+        <option value="$PROJECT_DIR$/tests/test_demo1.py" />
+        <option value="$PROJECT_DIR$/tests/test_demo2.py" />
+        <option value="$PROJECT_DIR$/tests/test_demo3.py" />
+        <option value="$PROJECT_DIR$/tests/test_demo4.py" />
+        <option value="$PROJECT_DIR$/tests/drag_and_drop/test_drag_and_drop.py" />
+        <option value="$PROJECT_DIR$/tests/drag_and_drop/conftest.py" />
+        <option value="$PROJECT_DIR$/tests/test_to_delete.py" />
+        <option value="$PROJECT_DIR$/libraries/library_drag_and_drop.py" />
+        <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/tests/test_add_remove_elements.py" />
+        <option value="$PROJECT_DIR$/libraries/library_add_remove_elements.py" />
+        <option value="$PROJECT_DIR$/tests/test_drag_and_drop.py" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/libraries/locators.py" />
+        <option value="$PROJECT_DIR$/tests/test_dynamic_controls.py" />
+        <option value="$PROJECT_DIR$/libraries/library_dynamic_controls.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pytest_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest_framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libraries" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Personal\scripts\selenium_python\pytest_framework\tests" />
+      <recent name="D:\Personal\scripts\selenium_python\pytest_framework\tests\drag_and_drop" />
+      <recent name="D:\Personal\scripts\selenium_python\pytest_framework\Temp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Personal\scripts\selenium_python\pytest_framework\libraries" />
+      <recent name="D:\Personal\scripts\selenium_python\pytest_framework\tests" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_dynamic_controls.test_expected_assertion_error">
+    <configuration name="pytest for test_drag_and_drop.test_drag_and_drop" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pytest_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_drag_and_drop.test_drag_and_drop&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_dynamic_controls.test_expected_assertion_error" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pytest_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_dynamic_controls.test_expected_assertion_error&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_dynamic_controls.test_expected_python_error" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pytest_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_dynamic_controls.test_expected_python_error&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_dynamic_controls.test_expected_selenium_error" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pytest_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_dynamic_controls.test_expected_selenium_error&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_dynamic_controls.test_remove_and_add_checkbox" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pytest_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_dynamic_controls.test_remove_and_add_checkbox&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_dynamic_controls.test_expected_assertion_error" />
+        <item itemvalue="Python tests.pytest for test_dynamic_controls.test_expected_python_error" />
+        <item itemvalue="Python tests.pytest for test_dynamic_controls.test_expected_selenium_error" />
+        <item itemvalue="Python tests.pytest for test_drag_and_drop.test_drag_and_drop" />
+        <item itemvalue="Python tests.pytest for test_dynamic_controls.test_remove_and_add_checkbox" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a703d04-2ab8-4196-952f-06fe67e1a633" name="Default Changelist" comment="" />
+      <created>1574050844601</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574050844601</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_for_test_dynamic_controls_test_1 - 2019.11.20 at 11h 36m 18s.xml">
+      <configuration name="pytest for test_dynamic_controls.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_dynamic_controls_test_1 - 2019.11.20 at 11h 36m 43s.xml">
+      <configuration name="pytest for test_dynamic_controls.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_dynamic_controls_test_remove_and_add_checkbox - 2019.11.20 at 12h 02m 36s.xml">
+      <configuration name="pytest for test_dynamic_controls.test_remove_and_add_checkbox" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_dynamic_controls_test_remove_and_add_checkbox - 2019.11.20 at 14h 42m 20s.xml">
+      <configuration name="pytest for test_dynamic_controls.test_remove_and_add_checkbox" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_drag_and_drop_test_drag_and_drop - 2019.11.20 at 14h 42m 57s.xml">
+      <configuration name="pytest for test_drag_and_drop.test_drag_and_drop" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_dynamic_controls_test_expected_selenium_error - 2019.11.20 at 14h 47m 52s.xml">
+      <configuration name="pytest for test_dynamic_controls.test_expected_selenium_error" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_dynamic_controls_test_expected_assertion_error - 2019.11.20 at 14h 54m 34s.xml">
+      <configuration name="pytest for test_dynamic_controls.test_expected_assertion_error" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_dynamic_controls_test_expected_python_error - 2019.11.20 at 14h 59m 48s.xml">
+      <configuration name="pytest for test_dynamic_controls.test_expected_python_error" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_dynamic_controls_test_expected_python_error - 2019.11.20 at 15h 01m 11s.xml">
+      <configuration name="pytest for test_dynamic_controls.test_expected_python_error" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_dynamic_controls_test_expected_assertion_error - 2019.11.20 at 15h 02m 58s.xml">
+      <configuration name="pytest for test_dynamic_controls.test_expected_assertion_error" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15437302" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.60010535" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49894625" visible="true" weight="0.32502708" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50105375" side_tool="true" visible="true" weight="0.32502708" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/test_demo1.py" />
+    <entry file="file://$PROJECT_DIR$/Temp/test_demo2.py" />
+    <entry file="file://$PROJECT_DIR$/Temp/test_demo3.py" />
+    <entry file="file://$PROJECT_DIR$/Temp/test_demo4.py" />
+    <entry file="file://$PROJECT_DIR$/tests/drag_and_drop/conftest.py" />
+    <entry file="file://$PROJECT_DIR$/tests/test_to_delete.py" />
+    <entry file="file://$PROJECT_DIR$/libraries/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/library_drag_and_drop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/library_add_remove_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_drag_and_drop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_dynamic_controls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/library_dynamic_controls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_add_remove_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
