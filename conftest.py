@@ -9,13 +9,14 @@ def pytest_addoption(parser):
 
 
 @pytest.hookimpl(hookwrapper=True, tryfirst=True)
-def pytest_runtest_makereport(item, call):
+def pytest_runtest_makereport(item):
     outcome = yield
     rep = outcome.get_result()
     setattr(item, "rep_" + rep.when, rep)
     return rep
 
 
+@allure.title("Open Browser")
 @pytest.fixture(scope="module")
 def open_browser(request):
     browser = request.config.getoption("--browser")
