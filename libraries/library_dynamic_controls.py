@@ -11,30 +11,34 @@ def wait_until_loading_complete(driver):
     WebDriverWait(driver, 60).until(EC.invisibility_of_element(spinner))
 
 
-class AddRemoveCheckbox(object):
-    def __init__(self, driver, url):
-        self.driver = driver
-        driver.get(url)
+@allure.step
+def navigate_url(driver, url):
+    driver.get(url)
 
-    @allure.step
-    def click_remove_button(self):
-        self.driver.find_element_by_xpath(Locators.xpath_remove_button).click()
-        wait_until_loading_complete(self.driver)
 
-    @allure.step
-    def click_add_button(self):
-        self.driver.find_element_by_xpath(Locators.xpath_add_button).click()
-        wait_until_loading_complete(self.driver)
+@allure.step
+def click_remove_button(driver):
+    driver.find_element_by_xpath(Locators.xpath_remove_button).click()
+    allure.attach('A text attachment in module scope fixture', 'blah blah blah', allure.attachment_type.TEXT)
+    wait_until_loading_complete(driver)
 
-    @allure.step
-    def verify_checkbox_presence(self):
-        presence = self.driver.find_element_by_xpath(Locators.xpath_checkbox).is_displayed()
-        return presence
 
-    @allure.step
-    def verify_text(self):
-        message = self.driver.find_element_by_xpath(Locators.xpath_id_message).text
-        return message
+@allure.step
+def click_add_button(driver):
+    driver.find_element_by_xpath(Locators.xpath_add_button).click()
+    wait_until_loading_complete(driver)
+
+
+@allure.step
+def verify_checkbox_presence(driver):
+    presence = driver.find_element_by_xpath(Locators.xpath_checkbox).is_displayed()
+    return presence
+
+
+@allure.step
+def verify_text(driver):
+    message = driver.find_element_by_xpath(Locators.xpath_id_message).text
+    return message
 
 
 class EnableDisableTextbox(object):

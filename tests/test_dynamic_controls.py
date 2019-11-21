@@ -1,5 +1,5 @@
 import pytest
-from libraries.library_dynamic_controls import AddRemoveCheckbox
+import libraries.library_dynamic_controls as add_remove
 from libraries.library_dynamic_controls import EnableDisableTextbox
 
 
@@ -8,9 +8,9 @@ from libraries.library_dynamic_controls import EnableDisableTextbox
 def test_remove_checkbox(open_browser):
     driver = open_browser
     url = "http://the-internet.herokuapp.com/dynamic_controls"
-    class_add_remove = AddRemoveCheckbox(driver, url)
-    class_add_remove.click_remove_button()
-    message = class_add_remove.verify_text()
+    add_remove.navigate_url(driver, url)
+    add_remove.click_remove_button(driver)
+    message = add_remove.verify_text(driver)
     assert message == "It's gone!"
 
 
@@ -18,12 +18,12 @@ def test_remove_checkbox(open_browser):
 def test_remove_and_add_checkbox(open_browser):
     driver = open_browser
     url = "http://the-internet.herokuapp.com/dynamic_controls"
-    class_add_remove = AddRemoveCheckbox(driver, url)
-    class_add_remove.click_remove_button()
-    message = class_add_remove.verify_text()
+    add_remove.navigate_url(driver, url)
+    add_remove.click_remove_button(driver)
+    message = add_remove.verify_text(driver)
     assert message == "It's gone!"
-    class_add_remove.click_add_button()
-    assert class_add_remove.verify_checkbox_presence() == True
+    add_remove.click_add_button(driver)
+    assert add_remove.verify_checkbox_presence(driver) == True
 
 
 @pytest.mark.error
@@ -31,8 +31,8 @@ def test_remove_and_add_checkbox(open_browser):
 def test_expected_selenium_error(open_browser):
     driver = open_browser
     url = "http://the-internet.herokuapp.com/dynamic_controls"
-    class_add_remove = AddRemoveCheckbox(driver, url)
-    message = class_add_remove.verify_text()
+    add_remove.navigate_url(driver, url)
+    message = add_remove.verify_text(driver)
     assert message == "It's gone!"
 
 
@@ -41,9 +41,9 @@ def test_expected_selenium_error(open_browser):
 def test_expected_assertion_error(open_browser):
     driver = open_browser
     url = "http://the-internet.herokuapp.com/dynamic_controls"
-    class_add_remove = AddRemoveCheckbox(driver, url)
-    class_add_remove.click_remove_button()
-    message = class_add_remove.verify_text()
+    add_remove.navigate_url(driver, url)
+    add_remove.click_remove_button(driver)
+    message = add_remove.verify_text(driver)
     assert message == "Expected error"
 
 

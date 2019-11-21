@@ -16,7 +16,7 @@ def pytest_runtest_makereport(item):
     return rep
 
 
-@allure.title("Open Browser")
+@allure.step("Open Browser")
 @pytest.fixture(scope="module")
 def open_browser(request):
     browser = request.config.getoption("--browser")
@@ -44,5 +44,3 @@ def allure_logs(request, open_browser):
                           attachment_type=allure.attachment_type.PNG)
         except:
             pass # just ignore
-
-
