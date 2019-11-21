@@ -1,5 +1,6 @@
 import pytest
 import libraries.library_dynamic_controls as add_remove
+import libraries.common as common
 from libraries.library_dynamic_controls import EnableDisableTextbox
 
 
@@ -8,17 +9,18 @@ from libraries.library_dynamic_controls import EnableDisableTextbox
 def test_remove_checkbox(open_browser):
     driver = open_browser
     url = "http://the-internet.herokuapp.com/dynamic_controls"
-    add_remove.navigate_url(driver, url)
+    common.navigate_url(driver, url)
     add_remove.click_remove_button(driver)
     message = add_remove.verify_text(driver)
     assert message == "It's gone!"
+    common.screenshot(driver, "Browser window after assertion")
 
 
 # Remove and then add button
 def test_remove_and_add_checkbox(open_browser):
     driver = open_browser
     url = "http://the-internet.herokuapp.com/dynamic_controls"
-    add_remove.navigate_url(driver, url)
+    common.navigate_url(driver, url)
     add_remove.click_remove_button(driver)
     message = add_remove.verify_text(driver)
     assert message == "It's gone!"
@@ -31,7 +33,7 @@ def test_remove_and_add_checkbox(open_browser):
 def test_expected_selenium_error(open_browser):
     driver = open_browser
     url = "http://the-internet.herokuapp.com/dynamic_controls"
-    add_remove.navigate_url(driver, url)
+    common.navigate_url(driver, url)
     message = add_remove.verify_text(driver)
     assert message == "It's gone!"
 
@@ -41,7 +43,7 @@ def test_expected_selenium_error(open_browser):
 def test_expected_assertion_error(open_browser):
     driver = open_browser
     url = "http://the-internet.herokuapp.com/dynamic_controls"
-    add_remove.navigate_url(driver, url)
+    common.navigate_url(driver, url)
     add_remove.click_remove_button(driver)
     message = add_remove.verify_text(driver)
     assert message == "Expected error"

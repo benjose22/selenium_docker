@@ -12,14 +12,8 @@ def wait_until_loading_complete(driver):
 
 
 @allure.step
-def navigate_url(driver, url):
-    driver.get(url)
-
-
-@allure.step
 def click_remove_button(driver):
     driver.find_element_by_xpath(Locators.xpath_remove_button).click()
-    allure.attach('A text attachment in module scope fixture', 'blah blah blah', allure.attachment_type.TEXT)
     wait_until_loading_complete(driver)
 
 
