@@ -3,8 +3,9 @@ from libraries.locators import Locators
 
 class AddRemoveActions(object):
 
-    def __init__(self, driver):
+    def __init__(self, driver, url):
         self.driver = driver
+        driver.get(url)
 
     def click_on_add_element(self):
         self.driver.find_element_by_xpath(Locators.xpath_add_element_button).click()

@@ -10,8 +10,9 @@ def wait_until_loading_complete(driver):
 
 
 class AddRemoveCheckbox(object):
-    def __init__(self, driver):
+    def __init__(self, driver, url):
         self.driver = driver
+        driver.get(url)
 
     def click_remove_button(self):
         self.driver.find_element_by_xpath(Locators.xpath_remove_button).click()
@@ -31,8 +32,9 @@ class AddRemoveCheckbox(object):
 
 
 class EnableDisableTextbox(object):
-    def __init__(self, driver):
+    def __init__(self, driver, url):
         self.driver = driver
+        driver.get(url)
 
     def click_enable_button(self):
         self.driver.find_element_by_xpath(Locators.xpath_enable_button).click()
