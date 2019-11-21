@@ -8,11 +8,11 @@ class AddRemoveActions(object):
         self.driver = driver
         driver.get(url)
 
-    @allure.title("click_on_add_element")
+    @allure.step("my custom step")
     def click_on_add_element(self):
-        allure.step("my custom step")
         self.driver.find_element_by_xpath(Locators.xpath_add_element_button).click()
 
+    @allure.step
     @allure.feature("count_delete_buttons")
     def count_delete_buttons(self):
         elements = self.driver.find_elements_by_xpath(Locators.xpath_delete_button_list)
