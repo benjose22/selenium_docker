@@ -10,6 +10,7 @@ class AddRemoveActions(object):
 
     @allure.title("click_on_add_element")
     def click_on_add_element(self):
+        allure.step("my custom step")
         self.driver.find_element_by_xpath(Locators.xpath_add_element_button).click()
 
     @allure.feature("count_delete_buttons")
