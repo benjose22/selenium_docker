@@ -35,6 +35,7 @@ def verify_text(driver):
     return message
 
 
+# Traditional python Class model
 class EnableDisableTextbox(object):
     def __init__(self, driver, url):
         self.driver = driver

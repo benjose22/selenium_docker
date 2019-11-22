@@ -2,6 +2,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 from libraries.locators import Locators
 import allure
 
+
+# Traditional python Class model
 class DragDrop(object):
     def __init__(self, driver, url):
         self.driver = driver

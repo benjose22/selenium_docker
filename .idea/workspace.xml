@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a703d04-2ab8-4196-952f-06fe67e1a633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/libraries/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/library_form_authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_form_authentication.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/library_add_remove_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/library_add_remove_elements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/library_drag_and_drop.py" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/library_drag_and_drop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraries/library_dynamic_controls.py" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/library_dynamic_controls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_dynamic_controls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_dynamic_controls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_add_remove_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_add_remove_elements.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,14 +19,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46043614">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/conftest.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="41" selection-start-line="41" selection-end-line="43" selection-end-column="69" />
+                <state relative-caret-position="119">
+                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
                   </folding>
@@ -29,11 +34,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/libraries/library_add_remove_elements.py">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pytest.ini">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="23" selection-start-line="23" selection-end-line="23" />
+                <state relative-caret-position="34">
+                  <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/libraries/library_form_authentication.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="476">
+                  <caret line="28" selection-start-line="28" selection-end-line="28" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -44,8 +58,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/libraries/library_dynamic_controls.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" selection-start-line="16" selection-end-line="16" />
+                <state relative-caret-position="177">
+                  <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -53,11 +67,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/libraries/common.py">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/libraries/locators.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
+                <state relative-caret-position="459">
+                  <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
                 </state>
               </provider>
             </entry>
@@ -66,23 +80,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/test_drag_and_drop.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-                  <folding>
-                    <element signature="e#0#52#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/test_dynamic_controls.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+                <state relative-caret-position="697">
+                  <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
                   </folding>
@@ -91,10 +93,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/test_add_remove_elements.py">
+            <entry file="file://$PROJECT_DIR$/tests/test_form_authentication.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
                   </folding>
@@ -113,6 +115,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>open_browser</find>
+      <find>click_on_add_element</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -127,16 +135,19 @@
         <option value="$PROJECT_DIR$/tests/drag_and_drop/test_drag_and_drop.py" />
         <option value="$PROJECT_DIR$/tests/drag_and_drop/conftest.py" />
         <option value="$PROJECT_DIR$/tests/test_to_delete.py" />
-        <option value="$PROJECT_DIR$/pytest.ini" />
-        <option value="$PROJECT_DIR$/libraries/locators.py" />
         <option value="$PROJECT_DIR$/tests/test_drag_and_drop.py" />
-        <option value="$PROJECT_DIR$/libraries/library_drag_and_drop.py" />
-        <option value="$PROJECT_DIR$/libraries/library_add_remove_elements.py" />
-        <option value="$PROJECT_DIR$/conftest.py" />
-        <option value="$PROJECT_DIR$/tests/test_add_remove_elements.py" />
         <option value="$PROJECT_DIR$/libraries/library_dynamic_controls.py" />
+        <option value="$PROJECT_DIR$/libraries/library_drag_and_drop.py" />
+        <option value="$PROJECT_DIR$/globals.py" />
+        <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/tests/test_dynamic_controls.py" />
+        <option value="$PROJECT_DIR$/libraries/library_add_remove_elements.py" />
         <option value="$PROJECT_DIR$/libraries/common.py" />
+        <option value="$PROJECT_DIR$/tests/test_add_remove_elements.py" />
+        <option value="$PROJECT_DIR$/libraries/locators.py" />
+        <option value="$PROJECT_DIR$/libraries/library_form_authentication.py" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/tests/test_form_authentication.py" />
       </list>
     </option>
   </component>
@@ -146,7 +157,9 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -203,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_add_remove_elements.test_add_button">
+  <component name="RunManager" selected="Python tests.pytest for test_form_authentication.test_login_to_form">
     <configuration name="pytest for test_add_remove_elements.test_add_button" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pytest_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,21 +229,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_add_remove_elements.test_add_button&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_drag_and_drop.test_drag_and_drop" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="pytest_framework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_drag_and_drop.test_drag_and_drop&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -264,7 +262,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_dynamic_controls.test_expected_selenium_error" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_dynamic_controls.test_remove_checkbox" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pytest_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,17 +273,32 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_dynamic_controls.test_expected_selenium_error&quot;" />
+      <option name="_new_target" value="&quot;test_dynamic_controls.test_remove_checkbox&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_form_authentication.test_login_to_form" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pytest_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_form_authentication.test_login_to_form&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_form_authentication.test_login_to_form" />
         <item itemvalue="Python tests.pytest for test_add_remove_elements.test_add_button" />
+        <item itemvalue="Python tests.pytest for test_dynamic_controls.test_remove_checkbox" />
         <item itemvalue="Python tests.pytest for test_dynamic_controls.test_expected_assertion_error" />
         <item itemvalue="Python tests.pytest for test_dynamic_controls.test_expected_python_error" />
-        <item itemvalue="Python tests.pytest for test_dynamic_controls.test_expected_selenium_error" />
-        <item itemvalue="Python tests.pytest for test_drag_and_drop.test_drag_and_drop" />
       </list>
     </recent_temporary>
   </component>
@@ -303,53 +316,53 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_dynamic_controls_test_expected_assertion_error - 2019.11.20 at 14h 54m 34s.xml">
-      <configuration name="pytest for test_dynamic_controls.test_expected_assertion_error" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_dynamic_controls_test_expected_python_error - 2019.11.20 at 14h 59m 48s.xml">
-      <configuration name="pytest for test_dynamic_controls.test_expected_python_error" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_dynamic_controls_test_expected_python_error - 2019.11.20 at 15h 01m 11s.xml">
-      <configuration name="pytest for test_dynamic_controls.test_expected_python_error" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_dynamic_controls_test_expected_assertion_error - 2019.11.20 at 15h 02m 58s.xml">
-      <configuration name="pytest for test_dynamic_controls.test_expected_assertion_error" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_add_remove_elements_test_add_button - 2019.11.20 at 16h 41m 04s.xml">
+    <history-entry file="pytest_for_test_add_remove_elements_test_add_button - 2019.11.22 at 09h 41m 51s.xml">
       <configuration name="pytest for test_add_remove_elements.test_add_button" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_add_remove_elements_test_add_button - 2019.11.20 at 16h 50m 39s.xml">
-      <configuration name="pytest for test_add_remove_elements.test_add_button" configurationId="tests" />
+    <history-entry file="pytest_for_test_form_authentication_test_login_to_form - 2019.11.22 at 12h 05m 57s.xml">
+      <configuration name="pytest for test_form_authentication.test_login_to_form" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_add_remove_elements_test_add_button - 2019.11.20 at 16h 53m 02s.xml">
-      <configuration name="pytest for test_add_remove_elements.test_add_button" configurationId="tests" />
+    <history-entry file="pytest_for_test_form_authentication_test_login_to_form - 2019.11.22 at 12h 08m 08s.xml">
+      <configuration name="pytest for test_form_authentication.test_login_to_form" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_add_remove_elements_test_add_button - 2019.11.20 at 16h 54m 43s.xml">
-      <configuration name="pytest for test_add_remove_elements.test_add_button" configurationId="tests" />
+    <history-entry file="pytest_for_test_form_authentication_test_login_to_form - 2019.11.22 at 12h 30m 34s.xml">
+      <configuration name="pytest for test_form_authentication.test_login_to_form" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_add_remove_elements_test_add_button - 2019.11.21 at 09h 03m 56s.xml">
-      <configuration name="pytest for test_add_remove_elements.test_add_button" configurationId="tests" />
+    <history-entry file="pytest_for_test_form_authentication_test_login_to_form - 2019.11.22 at 12h 32m 22s.xml">
+      <configuration name="pytest for test_form_authentication.test_login_to_form" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_add_remove_elements_test_add_button - 2019.11.21 at 09h 05m 34s.xml">
-      <configuration name="pytest for test_add_remove_elements.test_add_button" configurationId="tests" />
+    <history-entry file="pytest_for_test_form_authentication_test_login_to_form - 2019.11.22 at 12h 35m 31s.xml">
+      <configuration name="pytest for test_form_authentication.test_login_to_form" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_form_authentication_test_login_to_form - 2019.11.22 at 12h 36m 41s.xml">
+      <configuration name="pytest for test_form_authentication.test_login_to_form" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_form_authentication_test_login_to_form - 2019.11.22 at 13h 20m 20s.xml">
+      <configuration name="pytest for test_form_authentication.test_login_to_form" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_form_authentication_test_login_to_form - 2019.11.22 at 13h 22m 44s.xml">
+      <configuration name="pytest for test_form_authentication.test_login_to_form" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_form_authentication_test_login_to_form - 2019.11.22 at 13h 25m 13s.xml">
+      <configuration name="pytest for test_form_authentication.test_login_to_form" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15437302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15437302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5995785" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5995785" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49841937" visible="true" weight="0.32502708" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49841937" weight="0.32502708" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015806" side_tool="true" weight="0.32502708" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -370,37 +383,10 @@
     <entry file="file://$PROJECT_DIR$/libraries/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
+    <entry file="file://$PROJECT_DIR$/globals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/library_drag_and_drop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/locators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_add_remove_elements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -414,20 +400,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/library_dynamic_controls.py">
+    <entry file="file://$PROJECT_DIR$/libraries/library_drag_and_drop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="85">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/library_add_remove_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/library_add_remove_elements.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_add_remove_elements.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="194">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/library_dynamic_controls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/library_form_authentication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -436,8 +466,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="41" selection-start-line="41" selection-end-line="43" selection-end-column="69" />
+        <state relative-caret-position="119">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_form_authentication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -446,18 +493,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_dynamic_controls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="697">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

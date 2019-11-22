@@ -21,3 +21,9 @@ class Locators:
     # ENABLE / DISABLE BUTTON
     xpath_enable_button = "//button[contains(text(),'Enable')]"
     xpath_disable_button = "//button[contains(text(),'Disable')]"
+
+    # FORM AUTHENTICATION
+    id_username = "username"
+    id_password = "password"
+    xpath_login_button = "//button[@type='submit']"
+    xpath_loggedin_message = "//div[@id='flash']"
