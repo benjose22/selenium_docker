@@ -1,10 +1,12 @@
 import pytest
 import allure
+import os
 from selenium import webdriver
 
 
 def pytest_addoption(parser):
     parser.addoption("--browser", action="store", default="chrome", help="Type in browser type")
+    parser.addoption("--executor", action="store", default="standalone", help="For selenium grid.")
     parser.addoption("--url", action="store", default="http://the-internet.herokuapp.com", help="url")
 
 
@@ -20,8 +22,15 @@ def pytest_runtest_makereport(item):
 @pytest.fixture(scope="module")
 def open_browser(request):
     browser = request.config.getoption("--browser")
+    executor = request.config.getoption("--executor")
     if browser == 'chrome':
-        driver = webdriver.Chrome()
+        if executor == "remote":
+            caps = {'browserName': os.getenv('BROWSER', 'chrome')}
+            driver = webdriver.Remote(
+                command_executor='http://localhost:4444/wd/hub',
+                desired_capabilities=caps)
+        else:
+            driver = webdriver.Chrome()
     else:
         driver = webdriver.Firefox()
     driver.implicitly_wait(10)
@@ -29,6 +38,7 @@ def open_browser(request):
 
     yield driver # Teardown
     driver.close()
+    driver.quit()
 
 
 @pytest.fixture(autouse=True)
