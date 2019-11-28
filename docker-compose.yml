@@ -1,5 +1,11 @@
 version: "3"
 services:
+  pytest_remote:
+    build:
+      context: .
+      dockerfile: pytest.Dockerfile
+    image: pytest-with-src
+    
   selenium-hub:
     image: selenium/hub
     container_name: selenium-hub
