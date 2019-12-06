@@ -1,0 +1,51 @@
+version: '3.7'
+
+networks: 
+  private:
+    driver: overlay
+services:
+  hub:
+   image: selenium/hub
+   ports:
+     - "4444:4444"
+   deploy:
+    mode: global
+    placement:
+      constraints:
+        - node.role == manager
+   networks:
+    - private
+
+  chrome:
+    image: selenium/node-chrome
+    volumes:
+      - /dev/shm:/dev/shm
+    depends_on: 
+      - hub
+    environment:
+      HUB_HOST: hub
+      HUB_PORT: 4444
+    deploy:
+        replicas: 5
+    entrypoint: bash -c 'SE_OPTS="-host $$HOSTNAME -port 5556" /opt/bin/entry_point.sh'
+    ports:
+      - "5556:5556"
+    networks:
+      - private
+
+  firefox:
+    image: selenium/node-firefox
+    volumes:
+      - /dev/shm:/dev/shm
+    depends_on: 
+      - hub
+    environment:
+      HUB_HOST: hub
+      HUB_PORT: 4444
+    deploy:
+        replicas: 1
+    entrypoint: bash -c 'SE_OPTS="-host $$HOSTNAME -port 5555" /opt/bin/entry_point.sh'
+    ports: 
+      - "5555:5555"
+    networks: 
+      - private

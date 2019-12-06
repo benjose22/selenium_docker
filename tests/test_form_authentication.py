@@ -6,7 +6,6 @@ import libraries.library_form_authentication as auth
 testdata = [
     ("tomsmith", "SuperSecretPassword!", True),
     ("tomsmith", "wrong_passowrd", False),
-    ("wrong_username", "SuperSecretPassword!", False),
 ]
 @pytest.mark.sanity_test
 @pytest.mark.parametrize("username, password, expected",testdata)

@@ -19,7 +19,7 @@ def pytest_runtest_makereport(item):
 
 
 @allure.step("Open Browser")
-@pytest.fixture(scope="module")
+@pytest.fixture(scope="function")
 def open_browser(request):
     browser = request.config.getoption("--browser")
     executor = request.config.getoption("--executor")
