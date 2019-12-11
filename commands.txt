@@ -30,9 +30,9 @@ docker swarm init --advertise-addr 139.59.78.18
 docker stack deploy -c selenium-swarm-stack.yml grid
 docker service scale grid_chrome=5
 
-docker-compose -f pytest-image.yml up -d --build
+docker build -t pytest-with-src -f pytest.Dockerfile .
 docker run --network="host" --rm pytest-with-src --browser "chrome" --executor "remote"
-docker-compose -f pytest-image.yml down --rmi local
+docker build -t pytest-with-src -f pytest.Dockerfile .
 
 docker swarm leave --force
 ==================
