@@ -2,7 +2,6 @@ version: '3.7'
 
 networks: 
   private:
-    name: selenium
     driver: overlay
 services:
   hub:

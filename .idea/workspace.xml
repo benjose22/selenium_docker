@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a703d04-2ab8-4196-952f-06fe67e1a633" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tests/pytest-image.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pytest-image.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/commands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-swarm-stack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-swarm-stack.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +27,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/selenium-swarm-stack.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -44,7 +45,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pytest-image.yml">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="102">
@@ -124,8 +125,8 @@
         <option value="$PROJECT_DIR$/commands.txt" />
         <option value="$PROJECT_DIR$/tests/pytest-image.yml" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/selenium-swarm-stack.yml" />
         <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/selenium-swarm-stack.yml" />
       </list>
     </option>
   </component>
@@ -150,16 +151,6 @@
               <item name="pytest_framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="pytest_framework" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pytest_framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytest_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytest_framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytest_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -172,14 +163,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libraries" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Personal\scripts\selenium_python\pytest_framework\tests" />
-      <recent name="D:\Personal\scripts\selenium_python\pytest_framework\tests\drag_and_drop" />
-      <recent name="D:\Personal\scripts\selenium_python\pytest_framework\Temp" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Personal\scripts\selenium_python\pytest_framework\libraries" />
       <recent name="D:\Personal\scripts\selenium_python\pytest_framework\tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Personal\scripts\selenium_python\pytest_framework" />
+      <recent name="D:\Personal\scripts\selenium_python\pytest_framework\tests" />
+      <recent name="D:\Personal\scripts\selenium_python\pytest_framework\tests\drag_and_drop" />
+      <recent name="D:\Personal\scripts\selenium_python\pytest_framework\Temp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,6 +319,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15437302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -469,20 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-swarm-stack.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -497,6 +476,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-swarm-stack.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
     </entry>
