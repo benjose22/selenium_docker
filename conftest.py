@@ -23,16 +23,34 @@ def pytest_runtest_makereport(item):
 def open_browser(request):
     browser = request.config.getoption("--browser")
     executor = request.config.getoption("--executor")
-    if browser == 'chrome':
-        if executor == "remote":
-            caps = {'browserName': os.getenv('BROWSER', 'chrome')}
-            driver = webdriver.Remote(
-                command_executor='http://localhost:4444/wd/hub',
-                desired_capabilities=caps)
-        else:
+
+    if executor == "local":
+        if browser == 'chrome':
             driver = webdriver.Chrome()
+        else:
+            driver = webdriver.Firefox()
     else:
-        driver = webdriver.Firefox()
+        if executor == "remote":
+            command_executor = 'http://localhost:4444/wd/hub'
+        else:
+            command_executor = 'http://' + executor + '/wd/hub'  ## Expecting IP and Port. Eg. 1.1.1.1:4444
+
+        caps = {'browserName': os.getenv('BROWSER', browser)}
+        driver = webdriver.Remote(
+            command_executor=command_executor,
+            desired_capabilities=caps)
+
+    # if browser == 'chrome':
+    #     if executor == "remote":
+    #         caps = {'browserName': os.getenv('BROWSER', 'chrome')}
+    #         driver = webdriver.Remote(
+    #             command_executor='http://localhost:4444/wd/hub',
+    #             desired_capabilities=caps)
+    #     else:
+    #         driver = webdriver.Chrome()
+    # else:
+    #     driver = webdriver.Firefox()
+
     driver.implicitly_wait(10)
     driver.maximize_window()
 
