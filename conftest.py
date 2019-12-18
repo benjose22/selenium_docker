@@ -24,7 +24,7 @@ def open_browser(request):
     browser = request.config.getoption("--browser")
     executor = request.config.getoption("--executor")
 
-    if executor == "local":
+    if executor == "local" or executor == "":
         if browser == 'chrome':
             driver = webdriver.Chrome()
         else:

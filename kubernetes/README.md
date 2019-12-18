@@ -13,13 +13,13 @@ Your cluster must have 4 CPU and 6 GB of RAM to complete the example up to the s
 We will be using Selenium Grid Hub to make our Selenium install scalable via a master/worker model. The Selenium Hub is the master, and the Selenium Nodes are the workers(not to be confused with Kubernetes nodes). We only need one hub, but we're using a replication controller to ensure that the hub is always running:
 
 ```console
-kubectl create --filename=staging/selenium/selenium-hub-deployment.yaml
+kubectl create --filename=kubernetes/selenium-hub-deployment.yaml
 ```
 
 The Selenium Nodes will need to know how to get to the Hub, let's create a service for the nodes to connect to.
 
 ```console
-kubectl create --filename=staging/selenium/selenium-hub-svc.yaml
+kubectl create --filename=kubernetes/selenium-hub-svc.yaml
 ```
 
 ### Verify Selenium Hub Deployment
@@ -59,13 +59,13 @@ Now that the Hub is up, we can deploy workers.
 This will deploy 2 Chrome nodes.
 
 ```console
-kubectl create --filename=staging/selenium/selenium-node-chrome-deployment.yaml
+kubectl create --filename=kubernetes/selenium-node-chrome-deployment.yaml
 ```
 
 And 2 Firefox nodes to match.
 
 ```console
-kubectl create --filename=staging/selenium/selenium-node-firefox-deployment.yaml
+kubectl create --filename=kubernetes/selenium-node-firefox-deployment.yaml
 ```
 
 
