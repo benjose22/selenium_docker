@@ -13,16 +13,15 @@ pip install pytest-xdist
 ### Example commands to run locally
 ```console
 pytest .
+pytest
 pytest -k add_remove_elements
 pytest -m "not error" 
 pytest -m high_priority
 pytest -m sanity_tests
-pytest -m selenium_error
-pytest -m assert_error
-pytest -m python_error
 
 pytest -n 5 --browser "chrome" --executor "remote"
-pytest -n 5 --browser "firefox"
+pytest -n 2 --browser "firefox"
+pytest --browser="chrome" --executor="remote" tests/test_form_authentication.py
 ```
 
 ## How to run using Docker Compose
@@ -31,12 +30,12 @@ This example shows you to run this pytest script using docker compose.
 ### Prerequisites
 Need to have docker installed. Linux users make sure you have docker compose is installed(which needs to be installed seperatly)
 
-#### Start Docker Compose
+Start Docker Compose
 ```console
 docker-compose up -d --scale chrome=5 --scale firefox=0
 ```
-#### Build a docker image localy which contain source code
-Copy the python scrips and create an image locally
+
+Build a docker image localy which contain source code
 ```console
 docker build -t pytest-with-src -f pytest.Dockerfile .
 ```
@@ -44,22 +43,19 @@ Execute the automation script
 ```console
 docker run --network="host" --rm pytest-with-src --browser "chrome" --executor "remote"
 ```
-Delete the image
+(Teardown) Delete the image once the execution completes
 ```console
 docker rmi pytest-with-src
 ```
-#### Teardown Docker Compose
+(Teardown) Exit Docker Compose
 ```console
 docker-compose down --rmi local
 ```
 ## How to run using Docker Swarm
 This example helps to run this pytest script on Docker Swarm.
 ### Prerequisites
-Docker swarm should be initiated also if you have multiple nodes, workers and managers has to be setup.
-#### Start Docker Swarm
-```console
-docker swarm init
-```
+Docker swarm should be initiated also if you have multiple nodes, workers and managers has to be setup. 
+
 #### Start Swarm services using stack
 ```console
 docker stack deploy -c selenium-swarm-stack.yml grid
@@ -77,15 +73,11 @@ Execute the automation script
 ```console
 docker run --network="host" --rm pytest-with-src --browser "chrome" --executor "remote"
 ```
-Delete the image
+(Teardown) Delete the image once the execution completes
 ```console
 docker rmi pytest-with-src
 ```
-#### Exit stack
+(Teardown) Exit stack
 ```console
 docker stack rm grid
-```
-#### Exit Docker Swarm
-```console
-docker swarm leave --force
 ```
