@@ -5,7 +5,7 @@ from selenium import webdriver
 
 
 def pytest_addoption(parser):
-    parser.addoption("--browser", action="store", default="chrome", help="Type in browser type")
+    parser.addoption("--browser", action="store", default="firefox", help="Type in browser type")
     parser.addoption("--executor", action="store", default="standalone", help="For selenium grid.")
     parser.addoption("--url", action="store", default="http://the-internet.herokuapp.com", help="url")
 
@@ -24,7 +24,7 @@ def open_browser(request):
     browser = request.config.getoption("--browser")
     executor = request.config.getoption("--executor")
 
-    if executor == "local" or executor == "":
+    if executor == "local" or executor == "" or executor == "standalone":
         if browser == 'chrome':
             driver = webdriver.Chrome()
         else:
