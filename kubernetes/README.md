@@ -104,3 +104,45 @@ kubectl delete deployment selenium-node-chrome
 kubectl delete deployment selenium-node-firefox
 kubectl delete svc selenium-hub
 ```
+## How to run on GCP using Kubernetes cluster
+
+### Prerequisites
+
+Need to login to GCP and create a kuberneties cluster. I would prefer atleast 3 nodes with atleast 7GB memory.
+
+### Setup kubernetes
+
+Clone from this repositry. Setup deployment and services
+```console
+git clone https://gitlab.com/benjose22/pytest_selenium.git
+cd pytest_selenium/kubernetes
+kubectl create --filename=kubernetes/selenium-hub-deployment.yaml
+kubectl create --filename=kubernetes/selenium-hub-svc.yaml
+kubectl create --filename=kubernetes/selenium-node-chrome-deployment.yaml
+```
+
+### Setup gcloud firewall
+```console
+export NODEPORT=`kubectl get svc --selector='app=selenium-hub' --output=template --template="{{ with index .items 0}}{{with index .spec.ports 0 }}{{.nodePort}}{{end}}{{end}}"`
+export EXTERNAL_IP=`kubectl get nodes -o jsonpath='{ $.items[0].status.addresses[?(@.type=="ExternalIP")].address }'`
+gcloud compute firewall-rules create test-node-port --allow tcp:$NODEPORT
+curl http://$EXTERNAL_IP:$NODEPORT
+```
+### Execute the pytest selenium script
+I have scaled up to 5 chrome deployments and executing the container.
+```console
+cd ~/pytest_selenium/
+kubectl scale deployment selenium-node-chrome --replicas=5
+
+docker build -t pytest-with-src -f pytest.Dockerfile .
+docker run --network="host" --rm pytest-with-src --browser "chrome" --executor $EXTERNAL_IP:$NODEPORT
+```
+### Teardown
+Delete the firewall, remove the Docker image and delete all the kubernetes development and services.
+```console
+gcloud compute firewall-rules delete test-node-port
+docker rmi pytest-with-src
+kubectl delete deployment selenium-hub
+kubectl delete deployment selenium-node-chrome
+kubectl delete svc selenium-hub
+```

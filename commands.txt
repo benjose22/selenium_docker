@@ -10,6 +10,7 @@ pytest -m assert_error
 pytest -m python_error
 
 pytest -n 5 --browser "chrome" --executor "remote"
+
 pytest -n 5 --browser "firefox"
 
 ======================
