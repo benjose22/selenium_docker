@@ -115,7 +115,7 @@ Need to login to GCP and create a kuberneties cluster. I would prefer atleast 3 
 Clone from this repositry. Setup deployment and services
 ```console
 git clone https://gitlab.com/benjose22/pytest_selenium.git
-cd pytest_selenium/kubernetes
+cd ~/pytest_selenium/
 kubectl create --filename=kubernetes/selenium-hub-deployment.yaml
 kubectl create --filename=kubernetes/selenium-hub-svc.yaml
 kubectl create --filename=kubernetes/selenium-node-chrome-deployment.yaml
