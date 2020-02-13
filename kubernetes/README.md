@@ -131,7 +131,6 @@ curl http://$EXTERNAL_IP:$NODEPORT
 ### Execute the pytest selenium script
 I have scaled up to 5 chrome deployments and executing the container.
 ```console
-cd ~/pytest_selenium/
 kubectl scale deployment selenium-node-chrome --replicas=5
 
 docker build -t pytest-with-src -f pytest.Dockerfile .
