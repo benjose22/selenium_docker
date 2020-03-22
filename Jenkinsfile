@@ -9,7 +9,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 		def dockerfile = 'pytest.Dockerfile'
-        app = docker.build("pytest-with-src","-f ${dockerfile} ./")
+        app = docker.build("pytest-with-src","-f ${dockerfile}")
     }
 
 }
