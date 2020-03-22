@@ -15,7 +15,7 @@ node {
 	
     stage('Test image') {
         
-        app.inside {
+        app.inside("--entrypoint sh") {
             echo "Tests passed"
         }
     }
