@@ -21,6 +21,5 @@ node {
 	stage('Remove image') {
         
         sh 'docker rmi pytest-with-src -f'
-        }
     }
 }
