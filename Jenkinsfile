@@ -13,10 +13,14 @@ node {
         app = docker.build("pytest-with-src","-f ${dockerfile} ./")
     }
 	
-    stage('Test image') {
+    stage('Execute script') {
         
-        app.inside() {
-            echo "Tests passed"
+        sh 'docker run --network="host" --rm pytest-with-src --browser "chrome" --executor "remote"'
+    }
+	
+	stage('Remove image') {
+        
+        sh 'docker rmi pytest-with-src -f'
         }
     }
 }
